@@ -17,9 +17,9 @@ export default function Stopwatch() {
   }, [running]);
 
   return (
-    <div className=" -me-px flex  min-h-screen bg-gradient-to-br from-purple-400 via-pink-300 to-yellow-200 m-200">
+    <div className=" flex  min-h-screen justify-center rounded-2xl   border-blue-400 from-purple-400 via-pink-300 to-yellow-200 m-200">
      
-      <div className="bg-white rounded-2xl shadow-2xl border-4 border-blue-400 px-10 py-12 w-[90%] max-w-md text-center">
+      <div className="bg-white border-4 px-10 py-12 w-[90%] max-w-md text-center">
         
 
         <h2 className="text-4xl font-extrabold text-gray-800 mb-6">
